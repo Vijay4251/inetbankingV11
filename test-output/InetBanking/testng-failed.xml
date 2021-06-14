@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [InetBanking]">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="com.inetbanking.utilities.Reporting"/>
+  </listeners>
+  <test name="BankingApplication">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.inetbanking.testCases.TC_Logintest_01"/>
+      <class name="com.inetbanking.testCases.TC_LoginDDT_002"/>
+      <class name="com.inetbanking.testCases.TC_AddCustomerTest_003"/>
+    </classes>
+  </test> <!-- BankingApplication -->
+  <test name="BankingApplication(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.inetbanking.testCases.TC_Logintest_01">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.inetbanking.testCases.TC_Logintest_01 -->
+      <class name="com.inetbanking.testCases.TC_LoginDDT_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.inetbanking.testCases.TC_LoginDDT_002 -->
+      <class name="com.inetbanking.testCases.TC_AddCustomerTest_003">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="addNewCustomer"/>
+        </methods>
+      </class> <!-- com.inetbanking.testCases.TC_AddCustomerTest_003 -->
+    </classes>
+  </test> <!-- BankingApplication(failed) -->
+</suite> <!-- Failed suite [InetBanking] -->
