@@ -53,10 +53,10 @@ public class BaseClass {
 		if(br.equalsIgnoreCase("firefox"))
 		{
 		//System.setProperty("webdriver.gecko.driver",System.getProperty("user.dir")+"//Drivers//geckodriver.exe");
-		//WebDriverManager.edgedriver().setup();
-		//driver=new EdgeDriver();
-		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
+		WebDriverManager.edgedriver().setup();
+		driver=new EdgeDriver();
+		//WebDriverManager.chromedriver().setup();
+		//driver=new ChromeDriver();
 		
 		}
 		else if(br.equalsIgnoreCase("chrome"))

@@ -522,3 +522,16 @@
 2021-06-14 12:46:47,879 [main] INFO ebanking - provideing customer details...
 2021-06-14 12:47:10,248 [main] INFO ebanking - validation started...
 2021-06-14 12:47:10,322 [main] INFO ebanking - test case passed...
+2021-06-14 13:17:49,611 [main] INFO ebanking - username provided
+2021-06-14 13:17:50,408 [main] INFO ebanking - password proivded
+2021-06-14 13:17:58,098 [main] INFO ebanking - username provided
+2021-06-14 13:17:58,209 [main] INFO ebanking - password proivded
+2021-06-14 13:18:04,547 [main] INFO ebanking - username provided
+2021-06-14 13:18:04,685 [main] INFO ebanking - password proivded
+2021-06-14 13:18:11,022 [main] INFO ebanking - username provided
+2021-06-14 13:18:11,126 [main] INFO ebanking - password proivded
+2021-06-14 13:18:18,482 [main] INFO ebanking - username provided
+2021-06-14 13:18:18,579 [main] INFO ebanking - password proivded
+2021-06-14 13:18:25,292 [main] INFO ebanking - username provided
+2021-06-14 13:18:25,405 [main] INFO ebanking - password proivded
+2021-06-14 13:18:30,784 [main] WARN ebanking - Login passed
