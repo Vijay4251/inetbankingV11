@@ -15,8 +15,8 @@
 <!--  <test name="BankingApplication1">-->
 <!--  	<parameter name="browser" value="firefox"></parameter>-->
 <!--     <classes>-->
-  <class name="com.inetbanking.testCases.TC_Logintest_01"/>
-      <class name="com.inetbanking.testCases.TC_LoginDDT_002"/> 
+  <!--<class name="com.inetbanking.testCases.TC_Logintest_01"/>-->
+  <!-- <class name="com.inetbanking.testCases.TC_LoginDDT_002"/>-->
       <class name="com.inetbanking.testCases.TC_AddCustomerTest_003"/> 
     </classes>
   </test> <!-- Test -->
